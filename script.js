@@ -37,7 +37,7 @@ function updateGame() {
     } else if (shuttlecockLeft >= 600) {
         playerScore++;
         resetShuttlecock();
-    }
+    } 
 
     shuttlecockLeft += shuttlecockSpeed * shuttlecockDirection;
     shuttlecockElement.style.left
